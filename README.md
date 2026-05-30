@@ -219,3 +219,16 @@ python rag_query.py "NTN handover LEO" --group HIGH --work-item NR_NTN
 
 ---
 
+---
+
+## Development Notes
+
+This project was developed with the assistance of an AI coding assistant (Claude).
+My Role & Responsibilities:
+
+- **Architecture & Module Design**: Structured the system into distinct layers (Extraction, Embedding, Clustering, RAG, UI) and defined module interfaces.
+- **Business Requirements & Logic Definition**: Defined the 3GPP data processing pipeline, CR structures, and clustering criteria.
+- **Code Review & Optimization**: Refactored code for performance (e.g., batch embedding, FAISS index caching) and handled edge cases.
+- **Debugging & Integration**: Connected all modules and resolved runtime issues on large datasets.
+
+---
