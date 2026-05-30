@@ -95,7 +95,7 @@
 | Component | Technology |
 |---|---|
 | Visualization display | `pywebview` (subprocess-based, fallback: `webbrowser`) |
-| Setup automation | PowerShell (`_setup.ps1`) + Batch (`Tao_Shortcut_Desktop.bat`) |
+| Setup automation | PowerShell (`_setup.ps1`) + Batch (`Create_Shortcut_Desktop.bat`) |
 | App icon | `Pillow` (`make_icon.py`) |
 
 ---
@@ -105,7 +105,7 @@
 ```
 project_root/                          ← Working directory (cache & output created here)
 │
-├── Tao_Shortcut_Desktop.bat           ← Windows shortcut creator (calls _setup.ps1)
+├── Create_Shortcut_Desktop.bat           ← Windows shortcut creator (calls _setup.ps1)
 ├── _setup.ps1                         ← PowerShell: check deps + create Desktop shortcut
 ├── icon.ico                           ← Application icon
 │
@@ -513,7 +513,7 @@ This keeps the output token-efficient for downstream LLM consumption.
 
 ```bat
 REM Double-click or run from terminal:
-Tao_Shortcut_Desktop.bat
+Create_Shortcut_Desktop.bat
 ```
 
 This calls `_setup.ps1` which:

@@ -11,7 +11,7 @@
 
 ## Overview
 
-3GPP publishes thousands of technical documents across hundreds of Work Items and Releases each year. Finding relevant Change Requests, understanding their scope, and clustering similar CRs by topic is a slow, manual process for engineers and researchers.
+3GPP publishes thousands of technical documents across hundreds of Work Items and Releases each year. Finding relevant Change Requests, understanding their scope, and clustering similar CRs by topic is a slow, manual process for engineers and researchers. 
 
 **3GPP Search Tool** automates the entire workflow in a single desktop app:
 
@@ -115,7 +115,7 @@ A few design decisions worth calling out:
 
 ```
 app_3gpp/
-├── Tao_Shortcut_Desktop.bat        # Windows shortcut creator
+├── Create_Shortcut_Desktop.bat        # Windows shortcut creator
 ├── _setup.ps1                      # PowerShell: deps check + Desktop shortcut
 ├── icon.ico
 │
@@ -155,7 +155,7 @@ Auto-created at runtime: `.cache/`, `data/downloads/`, `data/outputs/`, `excels/
 ### Quick setup (Windows)
 
 ```bat
-Tao_Shortcut_Desktop.bat
+Create_Shortcut_Desktop.bat
 ```
 
 Locates `pythonw.exe`, installs dependencies, creates a Desktop shortcut.
@@ -216,8 +216,6 @@ python rag_query.py "NTN handover LEO" --group HIGH --work-item NR_NTN
 ## Documentation
 
 - [PROJECT_DOCUMENTATION.md](./PROJECT_DOCUMENTATION.md) — full module breakdown, execution flow, design rationale
-
----
 
 ---
 

@@ -1,4 +1,4 @@
-# _setup.ps1 - duoc goi boi Tao_Shortcut_Desktop.bat
+# _setup.ps1 - duoc goi boi Create_Shortcut_Desktop.bat
 
 $ErrorActionPreference = "Continue"
 
